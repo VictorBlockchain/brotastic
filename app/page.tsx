@@ -81,17 +81,17 @@ export default function Home() {
           <div className="h-1 bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300 w-1/3"></div>
         </div>
 
-        <section id="video" className="mb-20">
-          <h2 className={`text-4xl font-bold mb-6 ${orbitron.className}`}>Brotastic in Action</h2>
-          <div className="aspect-w-16 aspect-h-9">
-          <iframe width="315" height="560"
-src="https://www.youtube.com/embed/PbLgU5H-tXc"
-title="YouTube video player"
-frameBorder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowFullScreen></iframe>
+        <section id="video" className="mb-20" style={{textAlign: 'center'}}>
+          <h2 className={`text-4xl font-bold mb-6 ${orbitron.className}`}>this is BROTASTIC!</h2>
+          <div className="aspect-w-16 aspect-h-9" style={{textAlign:'center'}}>
+            <iframe width="315" height="560"
+              src="https://www.youtube.com/embed/PbLgU5H-tXc"
+              title="YouTube video player"
+              frameBorder="0"
+              style={{display:'block', margin:'0 auto', border:'none'}}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen></iframe>
           </div>
-          <p className="mt-4 text-center text-xl">Watch how Brotastic is changing the game!</p>
         </section>
         
         <div className="divider my-20 flex items-center justify-center">
