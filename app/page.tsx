@@ -107,7 +107,7 @@ export default function Home() {
         <div className="divider my-20 flex items-center justify-center">
           <div className="h-1 bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 w-1/3"></div>
           <span className="mx-4 text-4xl">
-            <FontAwesomeIcon icon={faRocket} />
+            <FontAwesomeIcon icon={faDumbbell} />
           </span>
           <div className="h-1 bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300 w-1/3"></div>
         </div>
