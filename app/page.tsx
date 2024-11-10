@@ -36,12 +36,12 @@ export default function Home() {
   ]
   
   useEffect(() => {
-    if (broCount >= 10 && broCount >=10) {
+    if (broCount >= 10 && broCount % 10 === 0) {
       setCurrentCarIndex((prevIndex) => (prevIndex + 1) % carImages.length)
       setShowCar(true)
       setTimeout(() => setShowCar(false), 3000) // Hide car after 3 seconds
     }
-  }, [broCount])
+  }, [broCount, carImages.length])
   
   const contractAddress = "launching soon..."
 
