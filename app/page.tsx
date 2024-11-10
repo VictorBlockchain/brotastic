@@ -142,10 +142,10 @@ export default function Home() {
                 <p className="font-mono break-all">{contractAddress}</p>
               </div>
               <ol className="list-decimal list-inside space-y-2">
-              <li>Set up a Sui wallet</li>
-                <li>Buy SUI from an exchange (like changenow.io</li>
-                <li>Transfer SUI to your wallet</li>
-                <li>Use a Sui DEX to swap for Brotastic</li>
+              <li>Set up a Solana Phantom wallet</li>
+                <li>Buy Solana from an exchange (like changenow.io) or directly from your Phantom wallet</li>
+                <li>Brotastic will 1st launch on pump.fun</li>
+                <li>Use a Solana DEX to swap for Brotastic, after it goes from pump.fun</li>
                 <li>HODL and enjoy the ride, bro!</li>
               </ol>
             </div>
@@ -220,8 +220,8 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-2">Socials</h3>
             </div>
             <ol className="list-decimal list-inside space-y-2 w-full text-center">
-              <li>Telegram: <a href="https://t.me/brotasticonsui" target='_blank'>Brotasticonsui</a></li>
-              <li>Twitter: <a href="https://x.com/brotasticonsui" target='_blank'>@Brotasticonsui</a></li>
+              <li>Telegram: <a href="https://t.me/brotasticonsui" target='_blank'>Brotasticonsol</a></li>
+              <li>Twitter: <a href="https://x.com/brotasticonsui" target='_blank'>@Brotasticonsol</a></li>
             </ol>
           </div>
         </section>
