@@ -165,7 +165,7 @@ export default function Home() {
         </div>
         
         <section id="merch" className="mb-20">
-          <h2 className={`text-4xl font-bold mb-6 text-center ${orbitron.className}`}>Merch & NFT's <br/><small>coming soon...</small></h2>
+          <h2 className={`text-4xl font-bold mb-6 text-center ${orbitron.className}`}>Merch & NFT&apos;s <br/><small>coming soon...</small></h2>
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="md:w-1/2">
             <Image src="/brotastic2.png" width={400} height={300} alt="Brotastic NFT Collection" className="w-full h-auto rounded-lg shadow-lg border-4 border-white" />
