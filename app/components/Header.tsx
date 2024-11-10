@@ -15,7 +15,7 @@ const orbitron = Orbitron({ subsets: ['latin'] })
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const navItems = ['Home', 'Video', 'Buy', 'Merch', 'Roadmap']
+  const navItems = ['Home', 'Video', 'Buy', 'Merch', 'Roadmap', 'Socials']
 
   return (
     <header className="p-6 flex justify-between items-center relative bg-gradient-to-r from-purple-600 to-blue-500">

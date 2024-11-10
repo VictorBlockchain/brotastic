@@ -36,7 +36,7 @@ export default function Home() {
   ]
   
   useEffect(() => {
-    if (broCount >= 10 && broCount % 10 === 0) {
+    if (broCount >= 10 && broCount >= 10) {
       setCurrentCarIndex((prevIndex) => (prevIndex + 1) % carImages.length)
       setShowCar(true)
       setTimeout(() => setShowCar(false), 3000) // Hide car after 3 seconds
@@ -149,9 +149,6 @@ export default function Home() {
                 <li>HODL and enjoy the ride, bro!</li>
               </ol>
             </div>
-            <div className="md:w-1/2 mt-6 md:mt-0 ml-6">
-              <Image src="/brotastic1.png" width={400} height={300} alt="Bros Buying Crypto" className="w-full h-auto rounded-lg shadow-lg border-4 border-white" />
-            </div>
           </div>
         </section>
       
@@ -217,20 +214,17 @@ export default function Home() {
           <div className="h-1 bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-300 w-1/3"></div>
         </div>
         
-        {/* <section id="babes" className="mb-20">
-          <h2 className={`text-4xl font-bold mb-6 ${orbitron.className}`}>Crypto Babes</h2>
-          <p className="text-xl mb-6">Crypto Babes You Should Get To Know</p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {['Crypto Cathy', 'Blockchain Barbie', 'DeFi Daisy'].map((babe, index) => (
-              <div key={index} className="bg-white bg-opacity-20 rounded-lg p-4 backdrop-blur-md">
-                <Image src="/placeholder.svg" width={300} height={300} alt={babe} className="w-full h-64 object-cover rounded-lg mb-4" />
-                <h3 className="text-xl font-bold mb-2">{babe}</h3>
-                <p>AI-generated crypto enthusiast</p>
-              </div>
-            ))}
+        <section id="socials" className="mb-20 flex items-center justify-center">
+          <div className="flex flex-col items-center justify-center md:w-1/2 space-y-6">
+            <div className="bg-white bg-opacity-20 rounded-lg p-6 backdrop-blur-md mb-6 w-full text-center">
+              <h3 className="text-2xl font-bold mb-2">Socials</h3>
+            </div>
+            <ol className="list-decimal list-inside space-y-2 w-full text-center">
+              <li>Telegram: <a href="https://t.me/brotasticonsui" target='_blank'>Brotasticonsui</a></li>
+              <li>Twitter: <a href="https://x.com/brotasticonsui" target='_blank'>@Brotasticonsui</a></li>
+            </ol>
           </div>
-          <p className="mt-6 text-sm text-center">Note: These are AI-generated images and do not represent real individuals.</p>
-        </section> */}
+        </section>
       </main>
 
       <footer className="text-center py-6">
