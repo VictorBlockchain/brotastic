@@ -43,7 +43,7 @@ export default function Home() {
     }
   }, [broCount, carImages.length])
   
-  const contractAddress = "launching soon..."
+  const contractAddress = "6pGg1nVghBrPr7v4SX1o5ncccU1UPSMB7B4ka58spump"
 
   return (
     <div className={`min-h-screen bg-gradient-to-br from-purple-600 to-blue-500 text-white ${roboto.className}`}>
@@ -139,7 +139,7 @@ export default function Home() {
             <div className="md:w-1/2">
               <div className="bg-white bg-opacity-20 rounded-lg p-6 backdrop-blur-md mb-6">
                 <h3 className="text-2xl font-bold mb-2">Contract Address</h3>
-                <p className="font-mono break-all">{contractAddress}</p>
+                <p className="font-mono break-all"><a href="https://pump.fun/coin/6pGg1nVghBrPr7v4SX1o5ncccU1UPSMB7B4ka58spump">{contractAddress}</a></p>
               </div>
               <ol className="list-decimal list-inside space-y-2">
               <li>Set up a Solana Phantom wallet</li>
@@ -187,7 +187,7 @@ export default function Home() {
           <div className="relative">
             <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-yellow-400"></div>
             {[
-              { phase: "Phase 1", title: "10x", description: "Initial token launch and community building" },
+              { phase: "Phase 1", title: "10x", description: "Initial token launch on pump.fun and community building" },
               { phase: "Phase 2", title: "20x", description: "Partnerships and exchange listings" },
               { phase: "Phase 3", title: "50x", description: "Launch Brotastic DeFi products" },
               { phase: "Phase 4", title: "100x", description: "Global domination of the meme coin market" }
