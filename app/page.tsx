@@ -220,8 +220,8 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-2">Socials</h3>
             </div>
             <ol className="list-decimal list-inside space-y-2 w-full text-center">
-              <li>Telegram: <a href="https://t.me/brotasticonsui" target='_blank'>Brotasticonsol</a></li>
-              <li>Twitter: <a href="https://x.com/brotasticonsui" target='_blank'>@Brotasticonsol</a></li>
+              <li>Telegram: <a href="https://t.me/brotasticonsol" target='_blank'>Brotasticonsol</a></li>
+              <li>Twitter: <a href="https://x.com/brotasticonsol" target='_blank'>@Brotasticonsol</a></li>
             </ol>
           </div>
         </section>
