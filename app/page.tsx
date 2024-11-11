@@ -43,7 +43,7 @@ export default function Home() {
     }
   }, [broCount, carImages.length])
   
-  const contractAddress = "6pGg1nVghBrPr7v4SX1o5ncccU1UPSMB7B4ka58spump"
+  const contractAddress = "0x3db2301638c80902ad953c2c0bdfc927d7821f5b0ea2d8eb1e240743fb6b3d64::bro88::BRO88"
 
   return (
     <div className={`min-h-screen bg-gradient-to-br from-purple-600 to-blue-500 text-white ${roboto.className}`}>
@@ -139,13 +139,13 @@ export default function Home() {
             <div className="md:w-1/2">
               <div className="bg-white bg-opacity-20 rounded-lg p-6 backdrop-blur-md mb-6">
                 <h3 className="text-2xl font-bold mb-2">Contract Address</h3>
-                <p className="font-mono break-all"><a href="https://pump.fun/coin/6pGg1nVghBrPr7v4SX1o5ncccU1UPSMB7B4ka58spump">{contractAddress}</a></p>
+                <p className="font-mono break-all"><a href="https://movepump.com/token/0x3db2301638c80902ad953c2c0bdfc927d7821f5b0ea2d8eb1e240743fb6b3d64::bro88::BRO88" target='_blank'>{contractAddress}</a></p>
               </div>
               <ol className="list-decimal list-inside space-y-2">
-              <li>Set up a Solana Phantom wallet</li>
-                <li>Buy Solana from an exchange (like changenow.io) or directly from your Phantom wallet</li>
-                <li>Brotastic will 1st launch on pump.fun</li>
-                <li>Use a Solana DEX to swap for Brotastic, after it goes from pump.fun</li>
+              <li>Set up a Sui wallet</li>
+                <li>Buy Sui from an exchange (like changenow.io) or directly from your Sui wallet.</li>
+                <li>Brotastic will 1st launch on movepump.com</li>
+                <li>Use a Sui DEX to swap for Brotastic, after it goes from movepump.com</li>
                 <li>HODL and enjoy the ride, bro!</li>
               </ol>
             </div>
@@ -220,13 +220,13 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-2">Socials</h3>
             </div>
             <ol className="list-decimal list-inside space-y-2 w-full text-center">
-              <li>Telegram: <a href="https://t.me/brotasticonsol" target='_blank'>Brotasticonsol</a></li>
-              <li>Twitter: <a href="https://x.com/brotasticonsol" target='_blank'>@Brotasticonsol</a></li>
+              <li>Telegram: <a href="https://t.me/brotasticonsui" target='_blank'>Brotasticonsui</a></li>
+              <li>Twitter: <a href="https://x.com/brotastic_sui" target='_blank'>@Brotasticonsui</a></li>
             </ol>
           </div>
         </section>
       </main>
-
+      
       <footer className="text-center py-6">
         <p>&copy; 2024 Brotastic. All rights reserved, bro.</p>
       </footer>
